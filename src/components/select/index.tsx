@@ -1,3 +1,4 @@
+import React from "react"
 import { SelectProps } from "./@types/types"
 import styles from "./styles.module.css"
 
