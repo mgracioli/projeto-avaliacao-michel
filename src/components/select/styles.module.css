@@ -1,0 +1,22 @@
+.footer {
+  justify-self: end;
+  background-color: var(--azul-petroleo);
+  border-radius: 27px;
+  width: fit-content;
+  color: var(--branco);
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.navlink {
+  width: fit-content;
+  color: var(--cinza-escuro);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.65rem;
+  border: none;
+  outline-style: none;
+  cursor: pointer;
+}
