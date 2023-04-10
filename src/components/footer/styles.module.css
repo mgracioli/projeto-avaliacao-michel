@@ -1,0 +1,124 @@
+.footerContainer {
+  width: 55vw;
+  margin: auto;
+  margin-top: 215px;
+}
+
+.footerInfosSuper {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerSuperior {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  margin-bottom: 60px;
+  position: relative
+}
+
+.footerSuperior::after {
+  content: "";
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  position: absolute;
+  bottom: -25px;
+}
+
+.linksGerais {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sectionLogoBotaoFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+
+.tituloLinks {
+  color: var(--branco);
+  margin-bottom: 15px;
+  font-size: 0.65rem;
+}
+
+.listaLinks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.li {
+  list-style: none;
+  margin-top: 8px;
+}
+
+.link {
+  color: var(--branco);
+  text-decoration: none;
+  font-weight: 450;
+  font-size: 0.9rem;
+}
+
+.colunaAjuda {
+  justify-self: end
+}
+
+.footerInferior {
+  display: grid;
+  grid-template-columns: 0.9fr 0.9fr 2fr 1fr;
+  margin-bottom: 30px
+}
+
+.infosFooterInferior {
+  color: var(--branco);
+  font-size: 0.65rem;
+  width: 50px
+}
+
+.linkTermos {
+  color: var(--branco);
+  text-decoration: none;
+  font-size: 0.65rem;
+}
+
+.divsVaziaContainer {
+  display: flex;
+  gap: 12px
+}
+
+.divVazia {
+  background-color: var(--azul-petroleo);
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  border: 1px solid var(--branco)
+}
+
+@media screen and (max-width: 1300px) {
+  .footerSuperior {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 60px;
+    position: relative
+  }
+
+  .sectionLogoBotaoFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 95px
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .footerInferior {
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+  }
+
+  .infosFooterInferior {
+    width: 100%
+  }
+}
