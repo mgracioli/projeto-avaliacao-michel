@@ -1,0 +1,352 @@
+  .containerCentral {
+    width: 72vw;
+    margin: auto
+  }
+
+  .section {
+    width: 100%;
+    margin-bottom: 100px
+  }
+
+  .imagem {
+    object-fit: contain;
+    width: 100%;
+  }
+
+  .banner {
+    display: flex;
+    margin: auto;
+    margin-bottom: 18vh;
+    position: relative;
+  }
+
+  .imgBanner {
+    border-radius: 15px;
+    filter: brightness(50%);
+    object-fit: cover;
+  }
+
+  .divConteudoBanner {
+    width: 50%;
+    padding: 65px 0 100px 40px;
+    z-index: 1;
+  }
+
+  .paragrafoPrincipal {
+    font-size: 2.9rem;
+    font-weight: 500;
+    color: var(--branco);
+    margin-bottom: 20px;
+    line-height: 3.3rem
+  }
+
+  .paragrafoSecundario {
+    font-size: 1.2rem;
+    color: var(--branco);
+    padding-right: 140px;
+    margin-bottom: 25px
+  }
+
+  .gridInfosSuper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 130px;
+    min-width: 500px;
+  }
+
+  .subGridEsquerda {
+    min-width: 280px;
+    max-width: 40%;
+    margin: 0 50px 20px 0
+  }
+
+  .subGridEsquerdaTitulo {
+    font-size: 1.85rem;
+    color: var(--cinza-escuro);
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 35px
+  }
+
+  .subGridEsquerdaParagrafo {
+    margin-bottom: 5px;
+    font-size: 0.95rem;
+    padding-right: 20px
+  }
+
+  .subGridEsquerdaTitulo::after {
+    content: "";
+    width: 43px;
+    border: 2px solid var(--azul-claro);
+    position: absolute;
+    bottom: -18px;
+    left: 0
+  }
+
+  .subGridDireita {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 270px);
+    min-width: 50%
+  }
+
+  .subGridDireitaItem {
+    padding: 0 20px 40px 0
+  }
+
+  .subGridDireitaItemIcone {
+    margin-bottom: 15px
+  }
+
+  .subGridDireitaItemTitulo {
+    font-size: 1.3rem;
+    margin-bottom: 8px
+  }
+
+  .subGridDireitaItemDesc {
+    font-size: 0.8rem;
+    color: var(--azul-claro2)
+  }
+
+  .sectionSsLegis {
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+    min-height: 290px;
+    margin-bottom: 120px
+  }
+
+  .imgSsLegisContainer {
+    position: relative
+  }
+
+  .textoSsLegis {
+    padding: 30px 40px 0 140px;
+  }
+
+  .tituloSsLegis {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 6px;
+    color: var(--azul-claro)
+  }
+
+  .subTituloSsLegis {
+    font-weight: bold;
+    margin-bottom: 6px;
+    font-size: 1.1rem;
+  }
+
+  .descricaoSsLegis {
+    margin-bottom: 6px;
+    font-size: 1.1rem;
+  }
+
+  .sectionAutomatiza {
+    background-color: var(--azul-claro);
+    height: fit-content
+  }
+
+  .textosAutoma {
+    padding: 130px 175px 0 25%;
+    margin-bottom: 130px
+  }
+
+  .tituloAutoma {
+    font-size: 2.1rem;
+    color: var(--branco);
+    font-weight: bold;
+    line-height: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .substringTitulo {
+    color: var(--azul-escuro)
+  }
+
+  .subTituloAutoma {
+    color: var(--branco);
+    margin-bottom: 60px;
+    font-size: 1.06rem;
+    line-height: 1.6rem
+  }
+
+  .imgContainerAtendente {
+    position: relative;
+  }
+
+  .imagemAtendente {
+    object-fit: cover;
+    width: 50%;
+  }
+
+  .containerCentralAutomatiza {
+    display: grid;
+    grid-template-columns: 57% 43%;
+    padding-top: 10px
+  }
+
+  .feedbackContainer {
+    min-width: 500px;
+  }
+
+  .sectionFeedbacksFooter {
+    padding: 90px 0;
+    background: linear-gradient(180deg, rgba(33, 50, 87, 1) 0%, rgba(16, 49, 127, 1) 45%, rgba(0, 49, 164, 1) 100%);
+  }
+
+  .feedbackTitulo {
+    color: var(--branco);
+    font-size: 1.6rem;
+    font-weight: 350;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative
+  }
+
+  .feedbackTitulo::after {
+    content: "";
+    width: 35px;
+    border: 1px solid var(--azul-claro);
+    position: absolute;
+    bottom: -15px;
+    left: calc(50% - 25px)
+  }
+
+  .feedbackSubtitulo {
+    text-align: center;
+    color: var(--branco);
+    font-size: 1rem;
+    margin-bottom: 50px
+  }
+
+  .cardsFeedbackContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+  }
+
+  .cardFeedback {
+    margin: 0 0 20px 20px;
+    width: 260px;
+    height: 310px;
+    border-radius: 3px;
+    background-color: var(--branco);
+    color: var(--cinza-escuro);
+    padding: 20px 38px 20px 30px;
+    line-height: 1.2rem;
+    position: relative;
+  }
+
+  .feedbackAspas {
+    margin-bottom: 15px;
+  }
+
+  .feedbackDescricao {
+    font-size: 0.9rem;
+    margin-bottom: 35px
+  }
+
+  .usuarioFeedback {
+    display: flex;
+    margin-bottom: 9px;
+    align-items: center;
+  }
+
+  .triangulo {
+    position: absolute;
+    left: 0;
+    bottom: 0
+  }
+
+  .fotoUsuarioFeedback {
+    margin-right: 25px;
+    border-radius: 50%;
+    z-index: 1;
+    object-fit: cover
+  }
+
+  .dadosUsuarioFeedback {
+    font-size: 0.9rem;
+    width: 70%;
+  }
+
+  .nomeUsuario {
+    font-size: 0.8rem;
+    color: var(--azul-claro2);
+  }
+
+  .nomeCompletoUsuario {
+    font-size: 0.75rem;
+    line-height: 0.82rem
+  }
+
+  @media screen and (max-width: 900px) {
+    .imgSsLegisContainer {
+      display: none
+    }
+
+    .sectionSsLegis {
+      display: grid;
+      grid-template-columns: 1fr;
+      min-height: 290px;
+      margin-bottom: 120px
+    }
+
+    .textoSsLegis {
+      min-width: 100%;
+      padding: 0;
+      margin: auto
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .imgContainerAtendente {
+      display: none
+    }
+
+    .containerCentralAutomatiza {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .divConteudoBanner {
+      width: 70%;
+    }
+
+    .paragrafoPrincipal {
+      font-size: 2.6rem;
+    }
+
+    .paragrafoSecundario {
+      padding-right: 0;
+    }
+  }
+
+  @media screen and (min-width: 1001px) and (max-width: 1100px) {
+    .textosAutoma {
+      padding-right: 40px;
+    }
+
+    .divConteudoBanner {
+      width: 60%;
+    }
+
+    .paragrafoPrincipal {
+      font-size: 2.7rem;
+    }
+
+    .paragrafoSecundario {
+      padding-right: 150px;
+    }
+  }
+
+  @media screen and (max-width: 1365px) {
+    .subGridEsquerda {
+      max-width: 90%;
+      margin: auto;
+    }
+
+    .subGridDireita {
+      margin: auto;
+      margin-top: 50px
+    }
+  }
