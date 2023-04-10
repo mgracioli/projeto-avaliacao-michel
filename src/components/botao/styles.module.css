@@ -1,0 +1,30 @@
+.btn {
+  border-radius: 27px;
+  padding: 13px 26px;
+  width: fit-content;
+  border: 0px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: flex;
+  gap: 15px;
+  cursor: pointer
+}
+
+.btn:hover {
+  text-decoration: underline
+}
+
+.azul {
+  color: var(--branco);
+  background-color: var(--azul-medio);
+}
+
+.verde {
+  color: var(--preto);
+  background-color: var(--verde);
+}
+
+.azul-escuro {
+  color: var(--branco);
+  background-color: var(--azul-petroleo);
+}
