@@ -3,7 +3,7 @@ import { GetServerSideProps, NextPage } from 'next'
 import HomePage from './home'
 import { FeedbacksUsuarios, HomePageProps } from './home/@types/types'
 
-const IndexPage: NextPage = ({ feedbacksUsuarios }: HomePageProps) => {
+const IndexPage = ({ feedbacksUsuarios }: HomePageProps) => {
   return (
     <HomePage feedbacksUsuarios={feedbacksUsuarios} />
   )
